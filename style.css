@@ -1,0 +1,26 @@
+button {
+    padding: 15px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#popup {
+    background-color: royalblue;
+    color: yellow;
+}
+
+.blackb {
+    background-color: black;
+    color: yellow;
+}
+
+.randomb {
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+    color: white;
+}
+
+.resetb {
+    background-color: rgb(172, 35, 35);
+    color: yellow;
+}
