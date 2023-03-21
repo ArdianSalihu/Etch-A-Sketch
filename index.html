@@ -17,9 +17,11 @@
     <p class="message"></p>
     <div class="board"></div>
     <div class="footer">
-        <button class="blackb">Black</button>
-        <button class="randomb">Random</button>
-        <button class="resetb">Reset</button>
+        <button class="blackb" onclick="changeColor('black')">Black</button>
+        <button class="grayb" onclick="changeColor('gray')">Gray</button>
+        <button class="randomb" onclick="changeColor('random')">Random</button>
+        <button class="eraserb" onclick="changeColor('white')">Eraser</button>
+        <button class="resetb" onclick="resetBoard()">Clear</button>
     </div>
     
     <script src="script.js"></script>

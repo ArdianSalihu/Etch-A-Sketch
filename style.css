@@ -32,6 +32,16 @@ button:hover {
     cursor: pointer;
 }
 
+.grayb {
+    background-color: rgb(160, 159, 159);
+    color: white;
+}
+
+.grayb:hover {
+    background-color: rgb(175, 172, 172);
+    color: gray;
+}
+
 #popup {
     background-color: royalblue;
     color: yellow;
@@ -47,7 +57,7 @@ button:hover {
 }
 
 .blackb:hover {
-    background-color: rgb(37, 35, 35);
+    color: black;
 }
 
 .randomb {
@@ -57,6 +67,17 @@ button:hover {
 
 .randomb:hover {
     color: black;
+}
+
+.eraserb {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.eraserb:hover {
+    background-color: rgb(118, 190, 209);
+    border: 1px solid white;
+    color: whitesmoke;
 }
 
 .resetb {
