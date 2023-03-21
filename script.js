@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 });
 
+let click = true;
+
 
 let color = "black";
 
@@ -24,12 +26,14 @@ function createBoard(size) {
   
       // add event listener to div elements
       div.addEventListener("mouseover", function () {
+        if (click) {
         if (color === "random") {
           // call colorRandom() function if color is set to "random"
           this.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 50%)`;
         } else {
           this.style.backgroundColor = color;
         }
+    }
       });
   
       board.insertAdjacentElement("beforeend", div);
@@ -55,9 +59,20 @@ function  getSize () {
     } 
     else if (input <= 0 || input > 100) {
         message.innerHTML = "Provide a number only between 1 and 100";
-    } 
+    }
     else {
         message.innerHTML = "Now we can play!";
         return input;
     }
 }
+
+document.querySelector("body").addEventListener("click", (e) => {
+    if (e.target.tagName != "BUTTON") {
+        click = !click;
+    if (click) {
+        document.querySelector(".mode").textContent = "Mode: Coloring";
+    } else {
+        document.querySelector(".mode").textContent = "Mode: Not Coloring";
+    }
+    }
+})
