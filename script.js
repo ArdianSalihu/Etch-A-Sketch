@@ -47,9 +47,10 @@ function changeColor(choice) {
 }
 
 function resetBoard() {
-    let divs = document.querySelectorAll("div");
-    divs.forEach((div) => div.style.backgroundColor = "white");
-}
+    let board = document.querySelector(".board");
+    let squares = board.querySelectorAll("div");
+    squares.forEach((div) => (div.style.backgroundColor = "white"));
+  }
 
 function  getSize () {
     let input = prompt("What size would you like ?: ");

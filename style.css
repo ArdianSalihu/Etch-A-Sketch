@@ -3,6 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background: linear-gradient(100deg, #f75990, #fff685, #00DDFF, #0049B7)
 }
 
 .header {
@@ -93,5 +94,7 @@ button:hover {
     height: 500px;
     width: 500px;
     display: grid;
-    border: 1px solid black;
+    border: 5px solid black;
+    border-radius: 5px;
+    background-color: white;
 }
