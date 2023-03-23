@@ -17,4 +17,4 @@
 <p>3. Tipp: You can click inside or outside the sketchboard to chose between a "Coloring" and "Not Coloring" mode, for example to draw different shapes.</p>
 
 <h1>Contribution</h1>
-<p>This repository is currently not open to contribution. However, should one encounter a bug upon its usage, feel free to submit an issue detailing such.</p>
+<p>This repository is open to contribute. Please be free to copy my code or share any kind of new ideas for my project.</p>
