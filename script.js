@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function() {
     createBoard(16);
     let popup = document.querySelector("#popup");
     popup.addEventListener("click", function(){
@@ -49,7 +49,7 @@ function changeColor(choice) {
 function resetBoard() {
     let board = document.querySelector(".board");
     let squares = board.querySelectorAll("div");
-    squares.forEach((div) => (div.style.backgroundColor = "white"));
+    squares.forEach((div) => div.style.backgroundColor = "white");
   }
 
 function  getSize () {

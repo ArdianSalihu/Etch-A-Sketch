@@ -1,9 +1,35 @@
+* {
+    margin: 0;
+    padding-bottom: 27px;
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(100deg, #f75990, #fff685, #00DDFF, #0049B7)
+    background: linear-gradient(100deg,#f75990, #fff685, #00DDFF, #0049B7);
+}
+
+h1 {
+    font-family: 'ArcadeClassic', sans-serif;
+    color: royalblue;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 50px;
+}
+
+.select {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: royalblue;
+}
+
+.mode {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(20, 105, 161);
 }
 
 .header {
