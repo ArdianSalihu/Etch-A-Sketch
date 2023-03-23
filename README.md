@@ -1,6 +1,6 @@
 ![Screenshot from 2023-03-23 21-57-43](https://user-images.githubusercontent.com/88459146/227358819-578cc54e-d0d6-49d5-8390-f81a4b69621c.png)
 
-![GitHub](https://img.shields.io/github/license/klein528/Etch-A-Sketch?label=MIT)
+![GitHub](https://img.shields.io/github/license/klein528/Etch-A-Sketch?label=license)
 
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/klein528/Etch-A-Sketch)
 
