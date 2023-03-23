@@ -18,5 +18,3 @@
 
 <h1>Contribution</h1>
 <p>This repository is currently not open to contribution. However, should one encounter a bug upon its usage, feel free to submit an issue detailing such.</p>
-
-<h1>License</h1>
